@@ -1,0 +1,87 @@
+$evergreen: hwb(123 51% 22%);
+$papaya: #F36A46;
+$sprigatito: #B6DD6F;
+$skinbook: #FFF8E1;
+$twine: #F2F2DF;
+$rusty: #5D4037;
+$midnight: #35303D;
+$reddy-panda: #C62828;
+
+$primary: $evergreen;
+$danger: $reddy-panda;
+$secondary: $rusty;
+$light: $skinbook;
+$dark: $midnight;
+$info: $sprigatito;
+$warning: $papaya;
+
+//import bootstrap
+@import "~bootstrap/scss/bootstrap.scss";
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+body {
+    background-color: $skinbook;
+    color: $midnight;
+}
+
+// background color classes
+  .skinbook{
+    background-color: $skinbook;
+  }
+
+  .reddy-panda {
+    background-color: $reddy-panda;
+  }
+
+
+// custom bootstrap elements
+.navbar-evergreen {
+    background-color: $evergreen;
+    color: white;
+  
+    a.navbar-brand,
+    .nav-link {
+      color: white;
+  
+      &:hover {
+        color: $sprigatito;
+      }
+    }
+  }
+
+  .form-control-skinbook, .form-control-skinbook:focus {
+    background-color: $skinbook;
+    color: $midnight;
+  }
+
+  .btn-xl {
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+  }
+
+// custom elements
+
+.blur-wrapper {
+    min-height: 100vh;
+    overflow: hidden;
+  }
+.blur-background {
+    background-image: url("https://live.staticflickr.com/7076/7154331521_6120725f0a_b.jpg");
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.271);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+
+}
+
