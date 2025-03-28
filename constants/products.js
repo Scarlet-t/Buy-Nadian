@@ -6,7 +6,7 @@ export const products = [
     description: "Pure Canadian maple syrup 250ml",
     price: "12.99",
     image: "/images/maple-syrup.jpg",
-    canadianPercentage: 87,
+    canadianPercentage: 100,
     category: "Pantry Staples",
   },
   {
@@ -15,7 +15,7 @@ export const products = [
     description: "Fresh Ontario apples, 1kg bag",
     price: "5.49",
     image: "/images/apples.jpg",
-    canadianPercentage: 42,
+    canadianPercentage: 100,
     category: "Fresh Produce",
   },
   {
@@ -24,7 +24,7 @@ export const products = [
     description: "Aged Canadian cheddar 200g",
     price: "7.99",
     image: "/images/cheddar.jpg",
-    canadianPercentage: 96,
+    canadianPercentage: 100,
     category: "Dairy & Alternatives",
   },
   {
@@ -33,7 +33,7 @@ export const products = [
     description: "Artisan whole grain loaf",
     price: "4.99",
     image: "/images/bread.jpg",
-    canadianPercentage: 63,
+    canadianPercentage: 85,
     category: "Bakery",
   },
   {
@@ -51,7 +51,7 @@ export const products = [
     description: "Roasted mixed nuts with cranberries 500g",
     price: "10.49",
     image: "/images/mixed-nuts.jpg",
-    canadianPercentage: 29,
+    canadianPercentage: 60,
     category: "Snacks",
   },
   {
@@ -60,7 +60,7 @@ export const products = [
     description: "Cranberry almond granola 400g",
     price: "8.99",
     image: "/images/cranberry-granola.jpg",
-    canadianPercentage: 78,
+    canadianPercentage: 90,
     category: "Breakfast",
   },
   {
@@ -69,7 +69,7 @@ export const products = [
     description: "Vanilla almond milk 1L",
     price: "4.49",
     image: "/images/vanilla-almond-milk.jpg",
-    canadianPercentage: 54,
+    canadianPercentage: 75,
     category: "Dairy & Alternatives",
   },
   {
@@ -78,7 +78,7 @@ export const products = [
     description: "Natural peanut butter 500g",
     price: "6.99",
     image: "/images/peanut-butter.jpg",
-    canadianPercentage: 91,
+    canadianPercentage: 80,
     category: "Pantry Staples",
   },
   {
@@ -87,7 +87,7 @@ export const products = [
     description: "Fresh wild blueberries, 1 pint",
     price: "4.99",
     image: "/images/blueberries.jpg",
-    canadianPercentage: 33,
+    canadianPercentage: 100,
     category: "Fresh Produce",
   },
   {
@@ -96,7 +96,7 @@ export const products = [
     description: "Plain Greek yogurt 750g",
     price: "5.99",
     image: "/images/greek-yogurt.jpg",
-    canadianPercentage: 65,
+    canadianPercentage: 95,
     category: "Dairy & Alternatives",
   },
   {
@@ -105,7 +105,7 @@ export const products = [
     description: "Raw wildflower honey 500g",
     price: "9.49",
     image: "/images/honey.jpg",
-    canadianPercentage: 99,
+    canadianPercentage: 100,
     category: "Pantry Staples",
   },
   {
@@ -114,7 +114,7 @@ export const products = [
     description: "Energy trail mix with chocolate chips 300g",
     price: "7.49",
     image: "/images/trail-mix.jpg",
-    canadianPercentage: 12,
+    canadianPercentage: 70,
     category: "Snacks",
   },
   {
@@ -123,7 +123,7 @@ export const products = [
     description: "Steel-cut oats 1kg",
     price: "4.99",
     image: "/images/oatmeal.jpg",
-    canadianPercentage: 88,
+    canadianPercentage: 85,
     category: "Breakfast",
   },
   {
@@ -132,7 +132,7 @@ export const products = [
     description: "Free-range chicken breast 500g",
     price: "12.99",
     image: "/images/chicken-breast.jpg",
-    canadianPercentage: 47,
+    canadianPercentage: 100,
     category: "Meat & Protein",
   },
   {
@@ -141,7 +141,7 @@ export const products = [
     description: "70% dark chocolate bar 100g",
     price: "3.99",
     image: "/images/dark-chocolate.jpg",
-    canadianPercentage: 23,
+    canadianPercentage: 50,
     category: "Snacks",
   },
   {
@@ -150,7 +150,7 @@ export const products = [
     description: "Organic white quinoa 1kg",
     price: "8.99",
     image: "/images/quinoa.jpg",
-    canadianPercentage: 74,
+    canadianPercentage: 90,
     category: "Pantry Staples",
   },
   {
@@ -159,7 +159,7 @@ export const products = [
     description: "Fresh organic carrots, 1kg",
     price: "3.49",
     image: "/images/carrots.jpg",
-    canadianPercentage: 51,
+    canadianPercentage: 100,
     category: "Fresh Produce",
   },
   {
@@ -168,7 +168,7 @@ export const products = [
     description: "Unsalted Canadian butter 454g",
     price: "6.49",
     image: "/images/butter.jpg",
-    canadianPercentage: 84,
+    canadianPercentage: 100,
     category: "Dairy & Alternatives",
   },
   {
@@ -177,7 +177,7 @@ export const products = [
     description: "Whole wheat spaghetti 500g",
     price: "2.99",
     image: "/images/pasta.jpg",
-    canadianPercentage: 9,
+    canadianPercentage: 70,
     category: "Pantry Staples",
   },
 ];
