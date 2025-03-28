@@ -2,7 +2,7 @@ import { Form, Button } from "react-bootstrap";
 import { useState } from "react";
 import { products } from "@/constants/products";
 
-//TODO: FINISH FILTERPANEL TO sort and remove items inPRODUCT GRID
+//TODO: FINISH FILTERPANEL TO sort and remove items inPRODUCT GRID rr
 
 const toggleSelection = (sectionId) => {};
 
