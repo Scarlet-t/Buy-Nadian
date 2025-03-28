@@ -6,7 +6,6 @@ export default function Layout(props) {
         <>
             <MainNav/>
                 {props.children}
-            <Footer/>
         </>
     );
     
