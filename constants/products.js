@@ -180,13 +180,4 @@ export const products = [
     canadianPercentage: 70,
     category: "Pantry Staples",
   },
-  {
-    id: 21,
-    name: "Pasta",
-    description: "Whole wheat spaghetti 500g",
-    price: "2.99",
-    image: "/images/pasta.jpg",
-    canadianPercentage: 70,
-    category: "Pantry Staples",
-  },
 ];
