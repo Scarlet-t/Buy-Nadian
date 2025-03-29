@@ -24,9 +24,9 @@ export default function MainNav() {
           <Container>
             <Navbar.Brand href="#">
               <img
-                src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM="
-                width="50"
-                height="50"
+                src="https://i.ibb.co/3YNkRFZZ/chop-suey.png"
+                width="80"
+                height="80"
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
               />
@@ -56,11 +56,11 @@ export default function MainNav() {
                   onChange={(e) => setSearchField(e.target.value)}
                 />
                 <Button
-                  style={{ "border-radius": "0 !important", border: "none" }}
-                  class="w-50 reddy-panda"
+                  style={{ "border-radius": "0 !important", border: "none"}}
+                  class="w-50"
                   type="submit"
                 >
-                  <i class="bi bi-search-heart-fill"></i>
+                  <i class="bi bi-search"></i>
                 </Button>
               </Form>
           </Navbar.Collapse>
