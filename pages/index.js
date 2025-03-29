@@ -27,7 +27,11 @@ export default function Home() {
                 <Col xs={6}></Col>
                 <Col>
                   <h1 style={{"color":"#ffffff", "font-size":"8vh"}}>Find & Support Canadian-Made Food</h1>
-                  <Button onClick={handleSearchRedirect}>Explore More</Button>
+                  <div class=" d-flex justify-content-center">
+                  <button type="button" class="btn btn-danger btn-lg">Explore More</button>
+
+                  </div>
+                
                 </Col>
               </Row>
             </Container>
