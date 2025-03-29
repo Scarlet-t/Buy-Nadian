@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import MainNav from "@/components/MainNav";
 import { sampleProducts } from "@/constants/products";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 export default function SearchResults() {
   const [filters, setFilters] = useState({

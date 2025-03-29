@@ -1,8 +1,11 @@
 // TODO:
 // import {type Product} from 'schema';
 import { Card, Badge } from "react-bootstrap";
+import { useRouter } from "next/router";
+
 
 export default function ProductCard({ product }) {
+  const router = useRouter();
   // default
   const {
     canadianPercentage = 0,
@@ -22,7 +25,9 @@ export default function ProductCard({ product }) {
 
   return (
     <>
-      <Card className="h-100 product-card shadow-sm">
+      <Card onClick={(e) => {
+              e.preventDefault();
+              router.push("/jam")}} className="h-100 product-card shadow-sm">
         <div className="position-relative">
           {/* Product Image */}
           <div

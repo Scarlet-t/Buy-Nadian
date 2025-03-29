@@ -2,7 +2,6 @@ import { Row, Col, Form, Pagination as BsPagination } from "react-bootstrap";
 import { useState } from "react";
 import ProductCard from "./ProductCard";
 import { products as sampleProducts } from "@/constants/products";
-
 export default function ProductGrid({ products }) {
   const [sortOption, setSortOption] = useState("relevance");
   const [currentPage, setCurrentPage] = useState(1);

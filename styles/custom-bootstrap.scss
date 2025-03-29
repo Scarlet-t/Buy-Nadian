@@ -1,7 +1,7 @@
 $evergreen: hwb(123 51% 22%);
 $papaya: #F36A46;
 $sprigatito: #B6DD6F;
-$skinbook: #FFF8E1;
+$skinbook: #ffffff;
 $twine: #F2F2DF;
 $rusty: #5D4037;
 $midnight: #35303D;
@@ -24,9 +24,30 @@ $warning: $papaya;
 @import "bootstrap/scss/mixins";
 @import "bootstrap/scss/utilities";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+h1 {
+  font-weight: 900; // Bold
+}
+
+.cutcorners {
+  background-image: url("https://i.ibb.co/ymFThWT7/Mac-Book-Pro-16-3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.cutcorners-wrappers {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
 body {
     background-color: $skinbook;
     color: $midnight;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 // background color classes

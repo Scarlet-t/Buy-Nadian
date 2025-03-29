@@ -15,14 +15,15 @@ export default function MainNav() {
   const router = useRouter();
 
   function handleSubmit(event) {
-    //WIP
+    event.preventDefault();
+    router.push('/search')
   }
 
     return <>
     <Navbar expand="lg" className="bg-primary d-flex">
         <Container fluid>
           <Container>
-            <Navbar.Brand href="#">
+            <Navbar.Brand href="/">
               <img
                 src="https://i.ibb.co/3YNkRFZZ/chop-suey.png"
                 width="80"
@@ -60,7 +61,7 @@ export default function MainNav() {
                   class="w-50"
                   type="submit"
                 >
-                  <i class="bi bi-search"></i>
+                  <i class="bi bi-search" onClick={handleSubmit}></i>
                 </Button>
               </Form>
           </Navbar.Collapse>
